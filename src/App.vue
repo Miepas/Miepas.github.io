@@ -1,8 +1,5 @@
 <template>
 <div>
-  <myheader />
- 
-  
   <router-view/>
 </div>
   <!-- <img id="logo" alt="Vue logo" src="./assets/logo.png"> -->
@@ -14,7 +11,6 @@
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 //import Gsap from './components/Gsap.vue'
-import Header from './components/header.vue';
 // import Home from './components/Home'
 //import divdemoVue from './components/divdemo.vue'
 //import gsap from 'gsap';
@@ -22,7 +18,6 @@ export default {
   name: 'App',
   components: {
     //HelloWorld,
-    'myheader': Header,
     // Home
     //divdemoVue,
   },

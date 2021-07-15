@@ -5,6 +5,9 @@ import App from './App.vue';
 import router from './router/index'
 
 const app = createApp(App)
+router.afterEach(() => {
+    window.scrollTo(0, 0)
+})
 app.use(ElementPlus)
 app.use(router)
 app.mount('#app')
